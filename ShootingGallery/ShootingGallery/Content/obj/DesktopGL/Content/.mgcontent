@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Profile>Reach</Profile>
+  <Platform>DesktopGL</Platform>
+  <Config />
+  <SourceFiles>
+    <File>/home/ynot/Documents/ProgrammingProjects/GameProjects/MonoGame/ShootingGallery/ShootingGallery/ShootingGallery/Content/gallery_assets/crosshairs.png</File>
+    <File>/home/ynot/Documents/ProgrammingProjects/GameProjects/MonoGame/ShootingGallery/ShootingGallery/ShootingGallery/Content/gallery_assets/galleryFont.spritefont</File>
+    <File>/home/ynot/Documents/ProgrammingProjects/GameProjects/MonoGame/ShootingGallery/ShootingGallery/ShootingGallery/Content/gallery_assets/sky.png</File>
+    <File>/home/ynot/Documents/ProgrammingProjects/GameProjects/MonoGame/ShootingGallery/ShootingGallery/ShootingGallery/Content/gallery_assets/target.png</File>
+  </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>

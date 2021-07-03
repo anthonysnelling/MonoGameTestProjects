@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShootingGallery", "ShootingGallery\ShootingGallery.csproj", "{DDFB7D4D-E8C1-4D16-9381-062CC61BEF1C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DDFB7D4D-E8C1-4D16-9381-062CC61BEF1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDFB7D4D-E8C1-4D16-9381-062CC61BEF1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDFB7D4D-E8C1-4D16-9381-062CC61BEF1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDFB7D4D-E8C1-4D16-9381-062CC61BEF1C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
