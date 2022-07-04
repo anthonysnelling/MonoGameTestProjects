@@ -5,51 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2466a790-38df-40d1-88a1-42942eaf0afe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ShootingGallery/Content/bin/DesktopGL/Content/galleryFont.xnb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ShootingGallery/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ShootingGallery/.idea/aws.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ShootingGallery/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShootingGallery.sln" beforeDir="false" afterPath="$PROJECT_DIR$/ShootingGallery.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShootingGallery/Content/bin/DesktopGL/Content/gallery_assets/galleryFont.xnb" beforeDir="false" afterPath="$PROJECT_DIR$/ShootingGallery/Content/bin/DesktopGL/Content/gallery_assets/galleryFont.xnb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShootingGallery/Content/bin/DesktopGL/gallery_assets/crosshairs.xnb" beforeDir="false" afterPath="$PROJECT_DIR$/ShootingGallery/Content/bin/DesktopGL/Content/crosshairs.xnb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShootingGallery/Content/bin/DesktopGL/gallery_assets/galleryFont.xnb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShootingGallery/Content/bin/DesktopGL/gallery_assets/sky.xnb" beforeDir="false" afterPath="$PROJECT_DIR$/ShootingGallery/Content/bin/DesktopGL/Content/sky.xnb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShootingGallery/Content/bin/DesktopGL/gallery_assets/target.xnb" beforeDir="false" afterPath="$PROJECT_DIR$/ShootingGallery/Content/bin/DesktopGL/Content/target.xnb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShootingGallery/Content/gallery_assets.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShootingGallery/Content/gallery_assets/galleryFont.spritefont" beforeDir="false" afterPath="$PROJECT_DIR$/ShootingGallery/Content/gallery_assets/galleryFont.spritefont" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShootingGallery/Content/obj/DesktopGL/.mgcontent" beforeDir="false" afterPath="$PROJECT_DIR$/ShootingGallery/Content/obj/DesktopGL/.mgcontent" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShootingGallery/Content/obj/DesktopGL/.mgstats" beforeDir="false" afterPath="$PROJECT_DIR$/ShootingGallery/Content/obj/DesktopGL/.mgstats" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShootingGallery/Content/obj/DesktopGL/Content/.mgcontent" beforeDir="false" afterPath="$PROJECT_DIR$/ShootingGallery/Content/obj/DesktopGL/Content/.mgcontent" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ShootingGallery/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ShootingGallery/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShootingGallery/Content/obj/DesktopGL/Content/.mgstats" beforeDir="false" afterPath="$PROJECT_DIR$/ShootingGallery/Content/obj/DesktopGL/Content/.mgstats" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShootingGallery/Content/obj/DesktopGL/Content/gallery_assets/crosshairs.mgcontent" beforeDir="false" afterPath="$PROJECT_DIR$/ShootingGallery/Content/obj/DesktopGL/Content/gallery_assets/crosshairs.mgcontent" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShootingGallery/Content/obj/DesktopGL/Content/gallery_assets/galleryFont.mgcontent" beforeDir="false" afterPath="$PROJECT_DIR$/ShootingGallery/Content/obj/DesktopGL/Content/gallery_assets/galleryFont.mgcontent" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShootingGallery/Content/obj/DesktopGL/Content/gallery_assets/sky.mgcontent" beforeDir="false" afterPath="$PROJECT_DIR$/ShootingGallery/Content/obj/DesktopGL/Content/gallery_assets/sky.mgcontent" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShootingGallery/Content/obj/DesktopGL/Content/gallery_assets/target.mgcontent" beforeDir="false" afterPath="$PROJECT_DIR$/ShootingGallery/Content/obj/DesktopGL/Content/gallery_assets/target.mgcontent" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShootingGallery/Content/obj/DesktopGL/gallery_assets/crosshairs.mgcontent" beforeDir="false" afterPath="$PROJECT_DIR$/ShootingGallery/Content/obj/DesktopGL/gallery_assets/crosshairs.mgcontent" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShootingGallery/Content/obj/DesktopGL/gallery_assets/galleryFont.mgcontent" beforeDir="false" afterPath="$PROJECT_DIR$/ShootingGallery/Content/obj/DesktopGL/gallery_assets/galleryFont.mgcontent" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShootingGallery/Content/obj/DesktopGL/gallery_assets/sky.mgcontent" beforeDir="false" afterPath="$PROJECT_DIR$/ShootingGallery/Content/obj/DesktopGL/gallery_assets/sky.mgcontent" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShootingGallery/Content/obj/DesktopGL/gallery_assets/target.mgcontent" beforeDir="false" afterPath="$PROJECT_DIR$/ShootingGallery/Content/obj/DesktopGL/gallery_assets/target.mgcontent" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShootingGallery/Game1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ShootingGallery/Game1.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShootingGallery/ShootingGallery.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ShootingGallery/ShootingGallery.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShootingGallery/bin/Debug/netcoreapp3.1/Content/gallery_assets/galleryFont.xnb" beforeDir="false" afterPath="$PROJECT_DIR$/ShootingGallery/bin/Debug/netcoreapp3.1/Content/gallery_assets/galleryFont.xnb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShootingGallery/bin/Debug/netcoreapp3.1/ShootingGallery" beforeDir="false" afterPath="$PROJECT_DIR$/ShootingGallery/bin/Debug/netcoreapp3.1/ShootingGallery" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShootingGallery/bin/Debug/netcoreapp3.1/ShootingGallery.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ShootingGallery/bin/Debug/netcoreapp3.1/ShootingGallery.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShootingGallery/bin/Debug/netcoreapp3.1/ShootingGallery.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ShootingGallery/bin/Debug/netcoreapp3.1/ShootingGallery.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShootingGallery/bin/Debug/netcoreapp3.1/ShootingGallery.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/ShootingGallery/bin/Debug/netcoreapp3.1/ShootingGallery.runtimeconfig.dev.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShootingGallery/obj/Debug/netcoreapp3.1/ShootingGallery.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ShootingGallery/obj/Debug/netcoreapp3.1/ShootingGallery.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShootingGallery/obj/Debug/netcoreapp3.1/ShootingGallery.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ShootingGallery/obj/Debug/netcoreapp3.1/ShootingGallery.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShootingGallery/obj/Debug/netcoreapp3.1/ShootingGallery.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ShootingGallery/obj/Debug/netcoreapp3.1/ShootingGallery.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShootingGallery/obj/Debug/netcoreapp3.1/ShootingGallery.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ShootingGallery/obj/Debug/netcoreapp3.1/ShootingGallery.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShootingGallery/obj/Debug/netcoreapp3.1/ShootingGallery.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ShootingGallery/obj/Debug/netcoreapp3.1/ShootingGallery.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShootingGallery/obj/Debug/netcoreapp3.1/ShootingGallery.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ShootingGallery/obj/Debug/netcoreapp3.1/ShootingGallery.genruntimeconfig.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShootingGallery/obj/Debug/netcoreapp3.1/ShootingGallery.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ShootingGallery/obj/Debug/netcoreapp3.1/ShootingGallery.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShootingGallery/obj/Debug/netcoreapp3.1/apphost" beforeDir="false" afterPath="$PROJECT_DIR$/ShootingGallery/obj/Debug/netcoreapp3.1/apphost" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShootingGallery/obj/ShootingGallery.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ShootingGallery/obj/ShootingGallery.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShootingGallery/obj/ShootingGallery.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/ShootingGallery/obj/ShootingGallery.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShootingGallery/obj/ShootingGallery.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/ShootingGallery/obj/ShootingGallery.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShootingGallery/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/ShootingGallery/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShootingGallery/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ShootingGallery/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShootingGallery/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ShootingGallery/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShootingGallery/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/ShootingGallery/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,16 +30,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Color Scheme Font",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Color Scheme Font&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="ShootingGallery" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -109,6 +70,7 @@
       <updated>1656813747025</updated>
       <workItem from="1656813750498" duration="2479000" />
       <workItem from="1656816727917" duration="4739000" />
+      <workItem from="1656897803213" duration="79000" />
     </task>
     <servers />
   </component>

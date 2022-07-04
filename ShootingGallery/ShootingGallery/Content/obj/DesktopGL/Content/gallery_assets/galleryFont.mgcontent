@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <SourceFile>/home/anthonysnelling/Documents/GameProjects/Monogame/MonoGameTestProjects/ShootingGallery/ShootingGallery/Content/gallery_assets/galleryFont.spritefont</SourceFile>
-  <SourceTime>2022-07-02T22:25:27.4040102-04:00</SourceTime>
+  <SourceTime>2022-07-03T21:22:50.6327255-04:00</SourceTime>
   <DestFile>/home/anthonysnelling/Documents/GameProjects/Monogame/MonoGameTestProjects/ShootingGallery/ShootingGallery/Content/bin/DesktopGL/Content/gallery_assets/galleryFont.xnb</DestFile>
-  <DestTime>2022-07-02T22:31:17.4838582-04:00</DestTime>
+  <DestTime>2022-07-03T21:23:15.030257-04:00</DestTime>
   <Importer>FontDescriptionImporter</Importer>
   <ImporterTime>2020-08-10T16:17:54-04:00</ImporterTime>
   <Processor>FontDescriptionProcessor</Processor>
