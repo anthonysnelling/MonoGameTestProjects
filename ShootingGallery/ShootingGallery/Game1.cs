@@ -1,7 +1,8 @@
-﻿using Microsoft.Xna.Framework;
+﻿using System;
+using System.Globalization;
+using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
-using System;
 
 namespace ShootingGallery
 {
@@ -10,19 +11,20 @@ namespace ShootingGallery
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
 
-        private Texture2D targetSprite;
-        private Texture2D crosshairSprite;
-        private Texture2D backgroundSprite;
-        private SpriteFont gameFont;
+        private Texture2D _targetSprite;
+        private Texture2D _crosshairsSprite;
+        private Texture2D _backgroundSprite;
+        private SpriteFont _gameFont;
 
-        private Vector2 targetPosition = new Vector2(915, 495);
-        private const int targetRadius = 45;
+        private Vector2 _targetPosition = new Vector2(300, 300);
+        private const int TargetRadius = 45;
 
-        private MouseState mState;
-        private bool mReleased = true;
-        private int score = 0;
+        private MouseState _mState;
+        private bool _mReleased = true;
+        private int _score = 0;
 
-        private double timer = 10;
+        private double _timer = 10;
+
 
         public Game1()
         {
@@ -33,6 +35,9 @@ namespace ShootingGallery
 
         protected override void Initialize()
         {
+            // TODO: Add your initialization logic here
+
+
             base.Initialize();
         }
 
@@ -40,10 +45,11 @@ namespace ShootingGallery
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
 
-            targetSprite = Content.Load<Texture2D>("gallery_assets/target");
-            crosshairSprite = Content.Load<Texture2D>("gallery_assets/crosshairs");
-            backgroundSprite = Content.Load<Texture2D>("gallery_assets/sky");
-            gameFont = Content.Load<SpriteFont>("gallery_assets/galleryFont");
+            // TODO: use this.Content to load your game content here
+            _targetSprite = Content.Load<Texture2D>("target");
+            _crosshairsSprite = Content.Load<Texture2D>("crosshairs");
+            _backgroundSprite = Content.Load<Texture2D>("sky");
+            _gameFont = Content.Load<SpriteFont>("galleryFont");
         }
 
         protected override void Update(GameTime gameTime)
@@ -51,36 +57,38 @@ namespace ShootingGallery
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed ||
                 Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
-            if (timer > 0)
+
+            if (_timer > 0)
             {
-                timer -= gameTime.ElapsedGameTime.TotalSeconds;
-                if (timer < 0)
-                {
-                    timer = 0;
-                }
+                _timer -= gameTime.ElapsedGameTime.TotalSeconds;
             }
 
-
-            mState = Mouse.GetState();
-
-            if (mState.LeftButton == ButtonState.Pressed && mReleased == true)
+            if (_timer < 0)
             {
-                float mouseTargetDist = Vector2.Distance(targetPosition, mState.Position.ToVector2());
-
-                if (mouseTargetDist < targetRadius && timer > 0)
-                {
-                    score++;
-                    Random rand = new Random();
-                    targetPosition.X = rand.Next(10, _graphics.GraphicsDevice.Viewport.Width);
-                    targetPosition.Y = rand.Next(10, _graphics.GraphicsDevice.Viewport.Height - 90);
-                }
-
-                mReleased = false;
+                _timer = 0;
             }
 
-            if (mState.LeftButton == ButtonState.Released)
+            _mState = Mouse.GetState();
+
+            if (_mState.LeftButton == ButtonState.Pressed && _mReleased == true)
             {
-                mReleased = true;
+                float mouseTargetDist = Vector2.Distance(_targetPosition, _mState.Position.ToVector2());
+                if (mouseTargetDist < TargetRadius && _timer > 0)
+                {
+                    _score++;
+
+                    Random ran = new Random();
+
+                    _targetPosition.X = ran.Next(45, _graphics.GraphicsDevice.Viewport.Width - TargetRadius);
+                    _targetPosition.Y = ran.Next(45, _graphics.GraphicsDevice.Viewport.Height - TargetRadius * 2);
+                }
+
+                _mReleased = false;
+            }
+
+            if (_mState.LeftButton == ButtonState.Released)
+            {
+                _mReleased = true;
             }
 
             base.Update(gameTime);
@@ -90,23 +98,26 @@ namespace ShootingGallery
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
+            int halfScreenHeight = _graphics.GraphicsDevice.Viewport.Height / 2;
+            int halfScreenWidth = _graphics.GraphicsDevice.Viewport.Width / 2;
+
             _spriteBatch.Begin();
-            _spriteBatch.Draw(backgroundSprite, new Vector2(0, 0), Color.White);
-            if (timer > 0)
+            _spriteBatch.Draw(_backgroundSprite, new Vector2(0, 0), Color.White);
+            if (_timer > 0)
             {
-                _spriteBatch.Draw(targetSprite,
-                    new Vector2(targetPosition.X - targetRadius, targetPosition.Y - targetRadius), Color.White);
+                _spriteBatch.Draw(_targetSprite,
+                    new Vector2(_targetPosition.X - TargetRadius, _targetPosition.Y - TargetRadius), Color.White);
+            }
+            else
+            {
+                _spriteBatch.DrawString(_gameFont, "Game Over!",
+                    new Vector2(halfScreenWidth - 90, halfScreenHeight - 90), Color.Red);
             }
 
-            _spriteBatch.DrawString(gameFont, "Score: " + score.ToString(), new Vector2(3, 3), Color.White);
-            _spriteBatch.DrawString(gameFont, "Time: " + Math.Ceiling(timer).ToString(), new Vector2(3, 40),
-                Color.White);
-            if (timer == 0)
-            {
-                _spriteBatch.DrawString(gameFont, "GAMEOVER! " , new Vector2(_graphics.GraphicsDevice.Viewport.Width / 2,  _graphics.GraphicsDevice.Viewport.Height / 2), Color.White);
-            }
-            _spriteBatch.Draw(crosshairSprite, new Vector2(mState.X - 25, mState.Y - 25), Color.White);
-
+            _spriteBatch.DrawString(_gameFont, "Score: " + _score.ToString(), new Vector2(3, 3), Color.White);
+            _spriteBatch.DrawString(_gameFont, "Time: " + Math.Ceiling(_timer).ToString(CultureInfo.InvariantCulture),
+                new Vector2(3, 40), Color.White);
+            _spriteBatch.Draw(_crosshairsSprite, new Vector2(_mState.X - 25, _mState.Y - 25), Color.SeaGreen);
             _spriteBatch.End();
 
             base.Draw(gameTime);

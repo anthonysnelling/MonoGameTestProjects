@@ -4,10 +4,10 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>/home/ynot/Documents/ProgrammingProjects/GameProjects/MonoGame/ShootingGallery/ShootingGallery/ShootingGallery/Content/gallery_assets/crosshairs.png</File>
-    <File>/home/ynot/Documents/ProgrammingProjects/GameProjects/MonoGame/ShootingGallery/ShootingGallery/ShootingGallery/Content/gallery_assets/galleryFont.spritefont</File>
-    <File>/home/ynot/Documents/ProgrammingProjects/GameProjects/MonoGame/ShootingGallery/ShootingGallery/ShootingGallery/Content/gallery_assets/sky.png</File>
-    <File>/home/ynot/Documents/ProgrammingProjects/GameProjects/MonoGame/ShootingGallery/ShootingGallery/ShootingGallery/Content/gallery_assets/target.png</File>
+    <File>/home/anthonysnelling/Documents/GameProjects/Monogame/MonoGameTestProjects/ShootingGallery/ShootingGallery/Content/gallery_assets/crosshairs.png</File>
+    <File>/home/anthonysnelling/Documents/GameProjects/Monogame/MonoGameTestProjects/ShootingGallery/ShootingGallery/Content/gallery_assets/galleryFont.spritefont</File>
+    <File>/home/anthonysnelling/Documents/GameProjects/Monogame/MonoGameTestProjects/ShootingGallery/ShootingGallery/Content/gallery_assets/sky.png</File>
+    <File>/home/anthonysnelling/Documents/GameProjects/Monogame/MonoGameTestProjects/ShootingGallery/ShootingGallery/Content/gallery_assets/target.png</File>
   </SourceFiles>
   <DestFiles>
     <File xsi:nil="true" />

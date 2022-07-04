@@ -174,19 +174,19 @@
     ]
   },
   "packageFolders": {
-    "/home/ynot/.nuget/packages/": {}
+    "/home/anthonysnelling/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/ynot/Documents/ProgrammingProjects/GameProjects/MonoGame/ShootingGallery/ShootingGallery/ShootingGallery/ShootingGallery.csproj",
+      "projectUniqueName": "/home/anthonysnelling/Documents/GameProjects/Monogame/MonoGameTestProjects/ShootingGallery/ShootingGallery/ShootingGallery.csproj",
       "projectName": "ShootingGallery",
-      "projectPath": "/home/ynot/Documents/ProgrammingProjects/GameProjects/MonoGame/ShootingGallery/ShootingGallery/ShootingGallery/ShootingGallery.csproj",
-      "packagesPath": "/home/ynot/.nuget/packages/",
-      "outputPath": "/home/ynot/Documents/ProgrammingProjects/GameProjects/MonoGame/ShootingGallery/ShootingGallery/ShootingGallery/obj/",
+      "projectPath": "/home/anthonysnelling/Documents/GameProjects/Monogame/MonoGameTestProjects/ShootingGallery/ShootingGallery/ShootingGallery.csproj",
+      "packagesPath": "/home/anthonysnelling/.nuget/packages/",
+      "outputPath": "/home/anthonysnelling/Documents/GameProjects/Monogame/MonoGameTestProjects/ShootingGallery/ShootingGallery/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/ynot/.nuget/NuGet/NuGet.Config"
+        "/home/anthonysnelling/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -229,12 +229,18 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.linux-x64",
+            "version": "[3.1.26, 3.1.26]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
       }
     }
   }
