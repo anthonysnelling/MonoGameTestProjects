@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Novb515aFFdLlL7v091yiea8lWsH1/1gmBbbKvRQ1RkcwXuZNJi36r2naI19JMfrpNFES8TQetWfJB51rY+zcA==",
+  "success": true,
+  "projectFilePath": "/home/anthonysnelling/Documents/GameProjects/Monogame/MonoGameTestProjects/SpaceShip/SpaceShip/SpaceShip.csproj",
+  "expectedPackageFiles": [
+    "/home/anthonysnelling/.nuget/packages/monogame.content.builder.task/3.8.0.1641/monogame.content.builder.task.3.8.0.1641.nupkg.sha512",
+    "/home/anthonysnelling/.nuget/packages/monogame.framework.desktopgl/3.8.0.1641/monogame.framework.desktopgl.3.8.0.1641.nupkg.sha512",
+    "/home/anthonysnelling/.nuget/packages/microsoft.netcore.app.host.linux-x64/3.1.26/microsoft.netcore.app.host.linux-x64.3.1.26.nupkg.sha512"
+  ],
+  "logs": []
+}
